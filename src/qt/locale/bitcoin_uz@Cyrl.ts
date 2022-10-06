@@ -66,8 +66,8 @@
         <translation type="unfinished">Қабул қилинадиган манзиллар</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Улар тўловларни жўнатиш учун сизнинг Bitcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <source>These are your Garikcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Улар тўловларни жўнатиш учун сизнинг Garikcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -204,8 +204,8 @@
         <translation type="unfinished">Миқдори</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Bitcoin манзилини киритинг (масалан.  %1)</translation>
+        <source>Enter a Garikcoin address (e.g. %1)</source>
+        <translation type="unfinished">Garikcoin манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -297,7 +297,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>garikcoin-core</name>
     <message>
         <source>Done loading</source>
         <translation type="unfinished">Юклаш тайёр</translation>
@@ -308,7 +308,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>GarikcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Кўриб чиқиш</translation>
@@ -342,8 +342,8 @@
         <translation type="unfinished">Qt ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Тангаларни Bitcoin манзилига жўнатиш</translation>
+        <source>Send coins to a Garikcoin address</source>
+        <translation type="unfinished">Тангаларни Garikcoin манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,12 +366,12 @@
         <translation type="unfinished">Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Bitcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your Garikcoin addresses to prove you own them</source>
+        <translation type="unfinished">Garikcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Хабарларни махсус Bitcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified Garikcoin addresses</source>
+        <translation type="unfinished">Хабарларни махсус Garikcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -390,8 +390,8 @@
         <translation type="unfinished">Ички ойналар асбоблар панели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Тўловлар (QR кодлари ва bitcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <source>Request payments (generates QR codes and garikcoin: URIs)</source>
+        <translation type="unfinished">Тўловлар (QR кодлари ва garikcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -445,7 +445,7 @@
         <translation type="unfinished">&amp;Ойна</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Garikcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -626,8 +626,8 @@
         <translation type="unfinished">Жунатилувчи манзилни тахрирлаш</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Киритилган "%1" манзили тўғри Bitcoin манзили эмас.</translation>
+        <source>The entered address "%1" is not a valid Garikcoin address.</source>
+        <translation type="unfinished">Киритилган "%1" манзили тўғри Garikcoin манзили эмас.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -832,8 +832,8 @@
         <translation type="unfinished">Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Bitcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garikcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Garikcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1341,8 +1341,8 @@
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Диққат: Нотўғр Bitcoin манзили</translation>
+        <source>Warning: Invalid Garikcoin address</source>
+        <translation type="unfinished">Диққат: Нотўғр Garikcoin манзили</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
