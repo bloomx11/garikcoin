@@ -72,7 +72,7 @@ Security
 To check if `bitcoind` has `RandomizedBaseAddress` enabled or disabled run
 
 ```
-.\dumpbin.exe /headers src/bitcoind.exe
+.\dumpbin.exe /headers src/garikcoind.exe
 ```
 
 If is it enabled then in the output `Dynamic base` will be listed in the `DLL characteristics` under `OPTIONAL HEADER VALUES` as shown below
