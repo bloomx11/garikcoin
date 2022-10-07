@@ -34,7 +34,7 @@ Then, when configuring, pass the following:
 
 See [dependencies.md](dependencies.md) for a complete overview.
 
-### 2. Clone Bitcoin Repo
+### 2. Clone Garikcoin Repo
 
 Clone the Garikcoin Core repository to a directory. All build scripts and commands will run from this directory.
 

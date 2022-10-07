@@ -134,7 +134,7 @@ A BCC Python script showcasing eBPF and USDT limitations when passing data
 larger than about 32kb. Based on the `net:inbound_message` and
 `net:outbound_message` tracepoints.
 
-Bitcoin P2P messages can be larger than 32kb (e.g. `tx`, `block`, ...). The
+Garikcoin P2P messages can be larger than 32kb (e.g. `tx`, `block`, ...). The
 eBPF VM's stack is limited to 512 bytes, and we can't allocate more than about
 32kb for a P2P message in the eBPF VM. The **message data is cut off** when the
 message is larger than MAX_MSG_DATA_LENGTH (see script). This can be detected

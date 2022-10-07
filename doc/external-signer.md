@@ -53,7 +53,7 @@ Replace `<address>` with the result of `getnewaddress`.
 
 ### Spending
 
-Under the hood this uses a [Partially Signed Bitcoin Transaction](psbt.md).
+Under the hood this uses a [Partially Signed Garikcoin Transaction](psbt.md).
 
 ```sh
 $ bitcoin-cli -rpcwallet=<wallet> sendtoaddress <address> <amount>
@@ -72,7 +72,7 @@ In order to be compatible with Garikcoin Core any signer command should conform 
 
 Prerequisite knowledge:
 * [Output Descriptors](descriptors.md)
-* Partially Signed Bitcoin Transaction ([PSBT](psbt.md))
+* Partially Signed Garikcoin Transaction ([PSBT](psbt.md))
 
 ### `enumerate` (required)
 

@@ -14,7 +14,7 @@ from test_framework.blocktools import (
     create_block,
     create_coinbase,
 )
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.messages import (
     CTransaction,
     hash256,
@@ -100,7 +100,7 @@ class ZMQTestSetupBlock:
         )
 
 
-class ZMQTest (BitcoinTestFramework):
+class ZMQTest (GarikcoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
         # This test isn't testing txn relay/timing, so set whitelist on the

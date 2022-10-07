@@ -16,9 +16,9 @@ Verify that:
 """
 import os
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 
-class IncludeConfTest(BitcoinTestFramework):
+class IncludeConfTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
 

@@ -91,7 +91,7 @@ def set_properties(vcxproj_filename, placeholder, content):
             vcxproj_file.write(vcxproj_in_file.read().replace(placeholder, content))
 
 def main():
-    parser = argparse.ArgumentParser(description='Bitcoin-core msbuild configuration initialiser.')
+    parser = argparse.ArgumentParser(description='Garikcoin-core msbuild configuration initialiser.')
     parser.add_argument('-toolset', nargs='?', default=DEFAULT_PLATFORM_TOOLSET,
         help='Optionally sets the msbuild platform toolset, e.g. v143 for Visual Studio 2022.'
          ' default is %s.'%DEFAULT_PLATFORM_TOOLSET)

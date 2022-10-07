@@ -28,7 +28,7 @@ static const int CONTINUE_EXECUTION=-1;
 
 const std::function<std::string(const char*)> G_TRANSLATION_FUN = nullptr;
 
-static void SetupBitcoinUtilArgs(ArgsManager &argsman)
+static void SetupGarikcoinUtilArgs(ArgsManager &argsman)
 {
     SetupHelpOptions(argsman);
 
@@ -43,7 +43,7 @@ static void SetupBitcoinUtilArgs(ArgsManager &argsman)
 // CONTINUE_EXECUTION when it's expected to continue further.
 static int AppInitUtil(ArgsManager& args, int argc, char* argv[])
 {
-    SetupBitcoinUtilArgs(args);
+    SetupGarikcoinUtilArgs(args);
     std::string error;
     if (!args.ParseParameters(argc, argv, error)) {
         tfm::format(std::cerr, "Error parsing command line arguments: %s\n", error);

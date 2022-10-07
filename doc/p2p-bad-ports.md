@@ -2,14 +2,14 @@ When Garikcoin Core automatically opens outgoing P2P connections, it chooses
 a peer (address and port) from its list of potential peers. This list is
 populated with unchecked data gossiped over the P2P network by other peers.
 
-A malicious actor may gossip an address:port where no Bitcoin node is listening,
-or one where a service is listening that is not related to the Bitcoin network.
-As a result, this service may occasionally get connection attempts from Bitcoin
+A malicious actor may gossip an address:port where no Garikcoin node is listening,
+or one where a service is listening that is not related to the Garikcoin network.
+As a result, this service may occasionally get connection attempts from Garikcoin
 nodes.
 
 "Bad" ports are ones used by services which are usually not open to the public
 and usually require authentication. A connection attempt (by Garikcoin Core,
-trying to connect because it thinks there is a Bitcoin node on that
+trying to connect because it thinks there is a Garikcoin node on that
 address:port) to such service may be considered a malicious action by an
 ultra-paranoid administrator. An example for such a port is 22 (ssh). On the
 other hand, connection attempts to public services that usually do not require

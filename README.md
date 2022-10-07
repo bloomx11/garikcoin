@@ -9,7 +9,7 @@ https://bitcoincore.org/en/download/.
 What is Garikcoin Core?
 ---------------------
 
-Garikcoin Core connects to the Bitcoin peer-to-peer network to download and fully
+Garikcoin Core connects to the Garikcoin peer-to-peer network to download and fully
 validate blocks and transactions. It also includes a wallet and graphical user
 interface, which can be optionally built.
 

@@ -51,7 +51,7 @@ To install, run the following from your terminal:
 brew install automake libtool boost pkg-config libevent
 ```
 
-### 4. Clone Bitcoin repository
+### 4. Clone Garikcoin repository
 
 `git` should already be installed by default on your system.
 Now that all the required dependencies are installed, let's clone the Garikcoin Core repository to a directory.
@@ -247,23 +247,23 @@ This process could take many hours, or even days on slower than average systems.
 By default, blockchain and wallet data files will be stored in:
 
 ``` bash
-/Users/${USER}/Library/Application Support/Bitcoin/
+/Users/${USER}/Library/Application Support/Garikcoin/
 ```
 
 Before running, you may create an empty configuration file:
 
 ```shell
-mkdir -p "/Users/${USER}/Library/Application Support/Bitcoin"
+mkdir -p "/Users/${USER}/Library/Application Support/Garikcoin"
 
-touch "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
+touch "/Users/${USER}/Library/Application Support/Garikcoin/bitcoin.conf"
 
-chmod 600 "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
+chmod 600 "/Users/${USER}/Library/Application Support/Garikcoin/bitcoin.conf"
 ```
 
 You can monitor the download process by looking at the debug.log file:
 
 ```shell
-tail -f $HOME/Library/Application\ Support/Bitcoin/debug.log
+tail -f $HOME/Library/Application\ Support/Garikcoin/debug.log
 ```
 
 ## Other commands:

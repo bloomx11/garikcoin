@@ -18,7 +18,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
+installer (on Windows) or just copy over `/Applications/Garikcoin-Qt` (on Mac)
 or `bitcoind`/`bitcoin-qt` (on Linux).
 
 Upgrading directly from a version of Garikcoin Core that has reached its EOL is
@@ -78,7 +78,7 @@ New settings
 
 - `-blockfilterindex` enables the creation of BIP158 block filters for
   the entire blockchain.  Filters will be created in the background and
-  currently use about 4 GiB of space.  Note: this version of Bitcoin
+  currently use about 4 GiB of space.  Note: this version of Garikcoin
   Core does not serve block filters over the P2P network, although the
   local user may obtain block filters using the `getblockfilter` RPC.
   (#14121)
@@ -333,7 +333,7 @@ Mempool and transaction relay
   segwit versions) are now accepted into the mempool, relayed, and
   mined.  Attempting to spend those outputs remains forbidden by policy
   ("non-standard").  When this change has been widely deployed, wallets
-  and services can accept any valid bech32 Bitcoin address without
+  and services can accept any valid bech32 Garikcoin address without
   concern that transactions paying future segwit versions will become
   stuck in an unconfirmed state. (#15846)
 
@@ -424,7 +424,7 @@ Build system changes
 - #15834 Fix transaction relay bugs introduced in #14897 and expire transactions from peer in-flight map (sdaftuar)
 - #15651 torcontrol: Use the default/standard network port for Tor hidden services, even if the internal port is set differently (luke-jr)
 - #16188 Document what happens to getdata of unknown type (MarcoFalke)
-- #15649 Add ChaCha20Poly1305@Bitcoin AEAD (jonasschnelli)
+- #15649 Add ChaCha20Poly1305@Garikcoin AEAD (jonasschnelli)
 - #16152 Disable bloom filtering by default (TheBlueMatt)
 - #15993 Drop support of the insecure miniUPnPc versions (hebasto)
 - #16197 Use mockable time for tx download (MarcoFalke)
@@ -688,7 +688,7 @@ Build system changes
 - #15771 Prevent concurrency issues reading .cookie file (promag)
 - #15693 travis: Switch to ubuntu keyserver to avoid timeouts (MarcoFalke)
 - #15629 init: Throw error when network specific config is ignored (MarcoFalke)
-- #15773 Add BitcoinTestFramework::sync_* methods (MarcoFalke)
+- #15773 Add GarikcoinTestFramework::sync_* methods (MarcoFalke)
 - #15797 travis: Bump second timeout to 33 minutes, add rationale (MarcoFalke)
 - #15788 Unify testing setups for fuzz, bench, and unit tests (MarcoFalke)
 - #15352 Reduce noise level in test_bitcoin output (practicalswift)

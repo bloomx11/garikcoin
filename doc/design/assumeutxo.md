@@ -126,7 +126,7 @@ the background chainstate but before `CompleteSnapshotValidation()` can finish, 
 need to complete snapshot validation will be detected on subsequent init by
 `ChainstateManager::CheckForUncleanShutdown()`.
 
-### Bitcoind restarts sometime after snapshot validation has completed
+### Garikcoind restarts sometime after snapshot validation has completed
 
 When bitcoind initializes again, what began as the snapshot chainstate is now
 indistinguishable from a chainstate that has been built from the traditional IBD

@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes in some cases), then run the
-installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
+installer (on Windows) or just copy over `/Applications/Garikcoin-Qt` (on Mac)
 or `bitcoind`/`bitcoin-qt` (on Linux).
 
 Upgrading directly from a version of Garikcoin Core that has reached its EOL is
@@ -32,7 +32,7 @@ Compatibility
 ==============
 
 Garikcoin Core is supported and extensively tested on operating systems
-using the Linux kernel, macOS 10.14+, and Windows 7 and newer.  Bitcoin
+using the Linux kernel, macOS 10.14+, and Windows 7 and newer.  Garikcoin
 Core should also work on most other Unix-like systems but is not as
 frequently tested on them.  It is not recommended to use Garikcoin Core on
 unsupported systems.
@@ -458,7 +458,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
 - bitcoin-core/gui#4 UI external signer support (e.g. hardware wallet) (Sjors)
 - bitcoin-core/gui#13 Hide peer detail view if multiple are selected (promag)
 - bitcoin-core/gui#18 Add peertablesortproxy module (hebasto)
-- bitcoin-core/gui#21 Improve pruning tooltip (fluffypony, BitcoinErrorLog)
+- bitcoin-core/gui#21 Improve pruning tooltip (fluffypony, GarikcoinErrorLog)
 - bitcoin-core/gui#72 Log static plugins meta data and used style (hebasto)
 - bitcoin-core/gui#79 Embed monospaced font (hebasto)
 - bitcoin-core/gui#85 Remove unused "What's This" button in dialogs on Windows OS (hebasto)
@@ -954,7 +954,7 @@ A detailed list of changes in this version follows. To keep the list to a manage
 - bitcoin/bitcoin#20473 Document current boost dependency as 1.71.0 (laanwj)
 - bitcoin/bitcoin#20512 Add bash as an OpenBSD dependency (emilengler)
 - bitcoin/bitcoin#20568 Use FeeModes doc helper in estimatesmartfee (MarcoFalke)
-- bitcoin/bitcoin#20577 libconsensus: add missing error code description, fix NBitcoin link (theStack)
+- bitcoin/bitcoin#20577 libconsensus: add missing error code description, fix NGarikcoin link (theStack)
 - bitcoin/bitcoin#20587 Tidy up Tor doc (more stringent) (wodry)
 - bitcoin/bitcoin#20592 Update wtxidrelay documentation per BIP339 (jonatack)
 - bitcoin/bitcoin#20601 Update for FreeBSD 12.2, add GUI Build Instructions (jarolrod)

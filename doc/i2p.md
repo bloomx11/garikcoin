@@ -24,7 +24,7 @@ enabled is required. Options include:
 Note the IP address and port the SAM proxy is listening to; usually, it is
 `127.0.0.1:7656`.
 
-Once an I2P router with SAM enabled is up and running, use the following Bitcoin
+Once an I2P router with SAM enabled is up and running, use the following Garikcoin
 Core configuration options:
 
 ```

@@ -28,7 +28,7 @@ but still know when to expect mixing due to the wallet being close to empty.
 """
 
 import random
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.blocktools import COINBASE_MATURITY
 
 ADDRESS_TYPES = [
@@ -105,7 +105,7 @@ def generate_payment_values(n, m):
     return [a - b for a, b in zip(dividers + [m], [0] + dividers)]
 
 
-class AddressInputTypeGrouping(BitcoinTestFramework):
+class AddressInputTypeGrouping(GarikcoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 2

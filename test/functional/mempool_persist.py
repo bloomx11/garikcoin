@@ -40,7 +40,7 @@ import os
 import time
 
 from test_framework.p2p import P2PTxInvStore
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.util import (
     assert_equal,
     assert_greater_than_or_equal,
@@ -49,7 +49,7 @@ from test_framework.util import (
 from test_framework.wallet import MiniWallet
 
 
-class MempoolPersistTest(BitcoinTestFramework):
+class MempoolPersistTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 3
         self.extra_args = [[], ["-persistmempool=0"], []]

@@ -17,7 +17,7 @@ Compared to IPv4/IPv6, CJDNS provides end-to-end encryption and protects nodes
 from traffic analysis and filtering.
 
 Used with Tor and I2P, CJDNS is a complementary option that can enhance network
-redundancy and robustness for both the Bitcoin network and individual nodes.
+redundancy and robustness for both the Garikcoin network and individual nodes.
 
 Each network has different characteristics. For instance, Tor is widely used but
 somewhat centralized. I2P connections have a source address and I2P is slow.

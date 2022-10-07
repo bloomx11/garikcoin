@@ -28,7 +28,7 @@ from test_framework.psbt import (
     PSBT_IN_HASH160,
     PSBT_IN_HASH256,
 )
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.util import (
     assert_approx,
     assert_equal,
@@ -45,7 +45,7 @@ import os
 
 
 # Create one-input, one-output, no-fee transaction:
-class PSBTTest(BitcoinTestFramework):
+class PSBTTest(GarikcoinTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 3

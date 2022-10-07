@@ -34,7 +34,7 @@ To run:
 
 #### bitcoingui.(h/cpp)
 
-- Represents the main window of the Bitcoin UI.
+- Represents the main window of the Garikcoin UI.
 
 #### \*model.(h/cpp)
 
@@ -59,7 +59,7 @@ To run:
 
 #### Other .h/cpp files
 
-* UI elements like BitcoinAmountField, which inherit from QWidget.
+* UI elements like GarikcoinAmountField, which inherit from QWidget.
 * `bitcoinstrings.cpp`: automatically generated
 * `bitcoinunits.(h/cpp)`: BTC / mBTC / etc. handling
 * `callback.h`

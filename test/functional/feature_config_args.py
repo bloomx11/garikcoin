@@ -7,11 +7,11 @@
 import os
 import time
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework import util
 
 
-class ConfArgsTest(BitcoinTestFramework):
+class ConfArgsTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

@@ -7,10 +7,10 @@ import os
 import random
 import string
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.test_node import ErrorMatch
 
-class FilelockTest(BitcoinTestFramework):
+class FilelockTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 2

@@ -48,7 +48,7 @@ QT_BEGIN_NAMESPACE
 class QTimer;
 QT_END_NAMESPACE
 
-/** Interface to Bitcoin wallet from Qt view code. */
+/** Interface to Garikcoin wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT

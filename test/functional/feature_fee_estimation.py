@@ -11,7 +11,7 @@ import random
 from test_framework.messages import (
     COIN,
 )
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.util import (
     assert_equal,
     assert_greater_than,
@@ -124,7 +124,7 @@ def send_tx(wallet, node, utxo, feerate):
     )['txid']
 
 
-class EstimateFeeTest(BitcoinTestFramework):
+class EstimateFeeTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 3
         # Force fSendTrickle to true (via whitelist.noban)

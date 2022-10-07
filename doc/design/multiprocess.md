@@ -1,4 +1,4 @@
-# Multiprocess Bitcoin
+# Multiprocess Garikcoin
 
 On unix systems, the `--enable-multiprocess` build option can be passed to `./configure` to build new `bitcoin-node`, `bitcoin-wallet`, and `bitcoin-gui` executables alongside existing `bitcoind` and `bitcoin-qt` executables.
 

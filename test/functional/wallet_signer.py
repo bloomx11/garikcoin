@@ -10,14 +10,14 @@ See also rpc_signer.py for tests without wallet context.
 import os
 import platform
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.util import (
     assert_equal,
     assert_raises_rpc_error,
 )
 
 
-class WalletSignerTest(BitcoinTestFramework):
+class WalletSignerTest(GarikcoinTestFramework):
     def mock_signer_path(self):
         path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'mocks', 'signer.py')
         if platform.system() == "Windows":

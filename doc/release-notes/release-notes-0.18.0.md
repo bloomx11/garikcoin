@@ -19,7 +19,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has
 completely shut down (which might take a few minutes for older
 versions), then run the installer (on Windows) or just copy over
-`/Applications/Bitcoin-Qt` (on Mac) or `bitcoind`/`bitcoin-qt` (on
+`/Applications/Garikcoin-Qt` (on Mac) or `bitcoind`/`bitcoin-qt` (on
 Linux).
 
 The first time you run version 0.15.0 or newer, your chainstate database
@@ -163,7 +163,7 @@ Documentation
   Garikcoin Core.
 
 - A new document introduces Garikcoin Core's BIP174 [Partially-Signed
-  Bitcoin Transactions
+  Garikcoin Transactions
   (PSBT)](https://github.com/bitcoin/bitcoin/blob/master/doc/psbt.md)
   interface, which is used to allow multiple programs to collaboratively
   work to create, sign, and broadcast new transactions.  This is useful
@@ -185,7 +185,7 @@ Build system changes
 --------------------
 
 - A new `--disable-bip70` option may be passed to `./configure` to
-  prevent Bitcoin-Qt from being built with support for the BIP70 payment
+  prevent Garikcoin-Qt from being built with support for the BIP70 payment
   protocol or from linking libssl.  As the payment protocol has exposed
   Garikcoin Core to libssl vulnerabilities in the past, builders who don't
   need BIP70 support are encouraged to use this option to reduce their
@@ -406,7 +406,7 @@ Graphical User Interface (GUI)
 Tools
 -----
 
-- A new `bitcoin-wallet` tool is now distributed alongside Bitcoin
+- A new `bitcoin-wallet` tool is now distributed alongside Garikcoin
   Core's other executables.  Without needing to use any RPCs, this tool
   can currently create a new wallet file or display some basic
   information about an existing wallet, such as whether the wallet is
@@ -417,7 +417,7 @@ Planned changes
 ===============
 
 This section describes planned changes to Garikcoin Core that may affect
-other Bitcoin software and services.
+other Garikcoin software and services.
 
 - Since version 0.16.0, Garikcoin Core’s built-in wallet has defaulted to
   generating P2SH-wrapped segwit addresses when users want to receive
@@ -730,7 +730,7 @@ Changes for particular platforms
 - #14375 Correct misleading "overridden options" label (hebasto)
 - #15007 Notificator class refactoring (hebasto)
 - #14784 Use `WalletModel*` instead of the wallet name as map key (promag)
-- #11625 Add BitcoinApplication & RPCConsole tests (ryanofsky)
+- #11625 Add GarikcoinApplication & RPCConsole tests (ryanofsky)
 - #14517 Fix start with the `-min` option (hebasto)
 - #13216 implements concept for different disk sizes on intro (marcoagner)
 - #15114 Replace remaining 0 with nullptr (Empact)

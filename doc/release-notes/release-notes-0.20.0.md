@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes in some cases), then run the
-installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
+installer (on Windows) or just copy over `/Applications/Garikcoin-Qt` (on Mac)
 or `bitcoind`/`bitcoin-qt` (on Linux).
 
 Upgrading directly from a version of Garikcoin Core that has reached its EOL is
@@ -32,7 +32,7 @@ Compatibility
 ==============
 
 Garikcoin Core is supported and extensively tested on operating systems
-using the Linux kernel, macOS 10.12+, and Windows 7 and newer.  Bitcoin
+using the Linux kernel, macOS 10.12+, and Windows 7 and newer.  Garikcoin
 Core should also work on most other Unix-like systems but is not as
 frequently tested on them.  It is not recommended to use Garikcoin Core on
 unsupported systems.
@@ -72,7 +72,7 @@ Nodes on the network can not generally be trusted to send valid messages
 connected to a trusted node.  Please use the alternatives recommended
 below if you rely on this removed feature:
 
-- Testing or debugging of implementations of the Bitcoin P2P network protocol
+- Testing or debugging of implementations of the Garikcoin P2P network protocol
   should be done by inspecting the log messages that are produced by a recent
   version of Garikcoin Core. Garikcoin Core logs debug messages
   (`-debug=<category>`) to a stream (`-printtoconsole`) or to a file
@@ -213,7 +213,7 @@ GUI changes
 
 - For watch-only wallets, creating a new transaction in the Send screen
   or fee bumping an existing transaction in the Transactions screen will
-  automatically copy a Partially-Signed Bitcoin Transaction (PSBT) to
+  automatically copy a Partially-Signed Garikcoin Transaction (PSBT) to
   the system clipboard.  This can then be pasted into an external
   program such as [HWI](https://github.com/bitcoin-core/HWI) for
   signing.  Future versions of Garikcoin Core should support a GUI option

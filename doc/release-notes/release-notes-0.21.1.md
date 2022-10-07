@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes in some cases), then run the
-installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
+installer (on Windows) or just copy over `/Applications/Garikcoin-Qt` (on Mac)
 or `bitcoind`/`bitcoin-qt` (on Linux).
 
 Upgrading directly from a version of Garikcoin Core that has reached its EOL is
@@ -32,7 +32,7 @@ Compatibility
 ==============
 
 Garikcoin Core is supported and extensively tested on operating systems
-using the Linux kernel, macOS 10.12+, and Windows 7 and newer.  Bitcoin
+using the Linux kernel, macOS 10.12+, and Windows 7 and newer.  Garikcoin
 Core should also work on most other Unix-like systems but is not as
 frequently tested on them.  It is not recommended to use Garikcoin Core on
 unsupported systems.
@@ -109,8 +109,8 @@ For more information about taproot, please see the following resources:
   - [BIP342 Validation of Taproot scripts](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki)
 
 - Popular articles;
-  - [Taproot Is Coming: What It Is, and How It Will Benefit Bitcoin](https://bitcoinmagazine.com/technical/taproot-coming-what-it-and-how-it-will-benefit-bitcoin)
-  - [What do Schnorr Signatures Mean for Bitcoin?](https://academy.binance.com/en/articles/what-do-schnorr-signatures-mean-for-bitcoin)
+  - [Taproot Is Coming: What It Is, and How It Will Benefit Garikcoin](https://bitcoinmagazine.com/technical/taproot-coming-what-it-and-how-it-will-benefit-bitcoin)
+  - [What do Schnorr Signatures Mean for Garikcoin?](https://academy.binance.com/en/articles/what-do-schnorr-signatures-mean-for-bitcoin)
   - [The Schnorr Signature & Taproot Softfork Proposal](https://blog.bitmex.com/the-schnorr-signature-taproot-softfork-proposal/)
 
 - Development history overview

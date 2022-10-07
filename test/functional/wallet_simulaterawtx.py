@@ -7,14 +7,14 @@
 
 from decimal import Decimal
 from test_framework.blocktools import COINBASE_MATURITY
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.util import (
     assert_approx,
     assert_equal,
     assert_raises_rpc_error,
 )
 
-class SimulateTxTest(BitcoinTestFramework):
+class SimulateTxTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

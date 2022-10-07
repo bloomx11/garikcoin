@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes in some cases), then run the
-installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
+installer (on Windows) or just copy over `/Applications/Garikcoin-Qt` (on Mac)
 or `bitcoind`/`bitcoin-qt` (on Linux).
 
 Upgrading directly from a version of Garikcoin Core that has reached its EOL is
@@ -32,7 +32,7 @@ Compatibility
 ==============
 
 Garikcoin Core is supported and extensively tested on operating systems
-using the Linux kernel, macOS 10.15+, and Windows 7 and newer.  Bitcoin
+using the Linux kernel, macOS 10.15+, and Windows 7 and newer.  Garikcoin
 Core should also work on most other Unix-like systems but is not as
 frequently tested on them.  It is not recommended to use Garikcoin Core on
 unsupported systems.
@@ -47,7 +47,7 @@ P2P and network changes
   They will become eligible for address gossip after sending an ADDR, ADDRV2,
   or GETADDR message. (#21528)
 
-- Before this release, Garikcoin Core had a strong preference to try to connect only to peers that listen on port 8333. As a result of that, Bitcoin nodes listening on non-standard ports would likely not get any Garikcoin Core peers connecting to them. This preference has been removed. (#23542)
+- Before this release, Garikcoin Core had a strong preference to try to connect only to peers that listen on port 8333. As a result of that, Garikcoin nodes listening on non-standard ports would likely not get any Garikcoin Core peers connecting to them. This preference has been removed. (#23542)
 
 - Full support has been added for the CJDNS network. See the new option `-cjdnsreachable` and [doc/cjdns.md](https://github.com/bitcoin/bitcoin/tree/23.x/doc/cjdns.md) (#23077)
 
@@ -254,8 +254,8 @@ Thanks to everyone who directly contributed to this release:
 - Arnab Sen
 - Ben Woosley
 - benthecarman
-- Bitcoin Hodler
-- BitcoinTsunami
+- Garikcoin Hodler
+- GarikcoinTsunami
 - brianddk
 - Bruno Garcia
 - CallMeMisterOwl

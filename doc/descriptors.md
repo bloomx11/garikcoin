@@ -128,7 +128,7 @@ not contain "p2" for brevity.
 ### Multisig
 
 Several pieces of software use multi-signature (multisig) scripts based
-on Bitcoin's OP_CHECKMULTISIG opcode. To support these, we introduce the
+on Garikcoin's OP_CHECKMULTISIG opcode. To support these, we introduce the
 `multi(k,key_1,key_2,...,key_n)` and `sortedmulti(k,key_1,key_2,...,key_n)`
 functions. They represent a *k-of-n*
 multisig policy, where any *k* out of the *n* provided `KEY` expressions must

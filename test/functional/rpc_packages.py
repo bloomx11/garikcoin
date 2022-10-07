@@ -8,7 +8,7 @@ from decimal import Decimal
 import random
 
 from test_framework.address import ADDRESS_BCRT1_P2WSH_OP_TRUE
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import GarikcoinTestFramework
 from test_framework.messages import (
     MAX_BIP125_RBF_SEQUENCE,
     COIN,
@@ -32,7 +32,7 @@ from test_framework.wallet import (
     make_chain,
 )
 
-class RPCPackagesTest(BitcoinTestFramework):
+class RPCPackagesTest(GarikcoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.setup_clean_chain = True
